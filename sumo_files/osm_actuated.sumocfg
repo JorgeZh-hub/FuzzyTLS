@@ -10,11 +10,11 @@
         <route-files value="generated_routes_hourly.rou.xml"/>
         <additional-files value="osm.poly.xml.gz,output.add.xml"/>
     </input>
-<!--
+
 <output>
     <tripinfo-output value="tripinfo_actuated.xml"/>
     <statistic-output value="stats_actuated.xml"/>
-</output> -->
+</output> 
 
 
     <processing>
