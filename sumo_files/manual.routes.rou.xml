@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    <!-- Tipo de vehículo base -->
+    <vType id="car" accel="1.0" decel="4.5" sigma="0.5" length="5" maxSpeed="25"/>
+
+    <!-- Rutas y flujos -->
+    <flow id="f1" from="40668087#1" to="542428845#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f2" from="40668087#1" to="337277957#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f3" from="40668087#1" to="1053072563" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f4" from="40668087#1" to="337277973#1" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f5" from="40668087#1" to="337277984#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f6" from="40668087#1" to="337277970#1" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f7" from="40668087#1" to="337277951#1" type="car" begin="0" end="3600" vehsPerHour="600"/>
+
+    <flow id="f8" from="49217102" to="337277951#3" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f9" from="49217102" to="1053072563" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f10" from="49217102" to="337277973#1" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f11" from="49217102" to="337277984#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f12" from="49217102" to="542428845#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+
+    <flow id="f13" from="42143912#5" to="337277957#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f14" from="42143912#5" to="542428845#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f15" from="42143912#5" to="1053072563" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f16" from="42143912#5" to="337277973#1" type="car" begin="0" end="3600" vehsPerHour="600"/>
+
+    <flow id="f17" from="567060342#0" to="337277984#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f18" from="567060342#0" to="542428845#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="f19" from="567060342#0" to="337277957#0" type="car" begin="0" end="3600" vehsPerHour="600"/>
+</routes>
